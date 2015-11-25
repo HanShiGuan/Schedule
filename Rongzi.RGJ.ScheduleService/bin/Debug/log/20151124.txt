@@ -1,0 +1,16 @@
+﻿2015-11-24 14:04:34,918 INFO  Quartz.Impl.StdSchedulerFactory  - Default Quartz.NET properties loaded from embedded resource file
+2015-11-24 14:04:34,984 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for object serializer
+2015-11-24 14:04:35,011 INFO  Quartz.Impl.StdSchedulerFactory  - Using default implementation for ThreadExecutor
+2015-11-24 14:04:35,050 INFO  Quartz.Core.SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2015-11-24 14:04:35,050 INFO  Quartz.Core.QuartzScheduler  - Quartz Scheduler v.2.3.3.0 created.
+2015-11-24 14:04:35,052 INFO  Quartz.Simpl.RAMJobStore  - RAMJobStore initialized.
+2015-11-24 14:04:35,054 INFO  Quartz.Core.QuartzScheduler  - Scheduler meta-data: Quartz Scheduler (v2.3.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2015-11-24 14:04:35,054 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2015-11-24 14:04:35,054 INFO  Quartz.Impl.StdSchedulerFactory  - Quartz scheduler version: 2.3.3.0

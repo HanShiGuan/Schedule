@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rongzi.Mvc.Infrastructure", "Rongzi.Mvc.Infrastructure", "{F39D8C2C-5C66-496C-90E3-1DF41F28D4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rongzi.Mvc.Infrastructure", "Rongzi.Mvc.Infrastructure\Rongzi.Mvc.Infrastructure.csproj", "{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rongzi.RGJ.Schedule", "Rongzi.RGJ.Schedule", "{E4320E75-198A-4ACC-82D5-66445AC51C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rongzi.RGJ.Schedule", "Rongzi.RGJ.Schedule\Rongzi.RGJ.Schedule.csproj", "{469312C2-049D-453A-8715-474F8920D49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rongzi.RGJ.ScheduleService", "Rongzi.RGJ.ScheduleService\Rongzi.RGJ.ScheduleService.csproj", "{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469312C2-049D-453A-8715-474F8920D49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469312C2-049D-453A-8715-474F8920D49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469312C2-049D-453A-8715-474F8920D49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469312C2-049D-453A-8715-474F8920D49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A82B75-20A9-4CDF-96BF-7F4BD657D2C4} = {F39D8C2C-5C66-496C-90E3-1DF41F28D4AC}
+		{469312C2-049D-453A-8715-474F8920D49B} = {E4320E75-198A-4ACC-82D5-66445AC51C4A}
+		{4AFC0CAA-BFFD-40E4-900D-23136FDFF79E} = {E4320E75-198A-4ACC-82D5-66445AC51C4A}
+	EndGlobalSection
+EndGlobal

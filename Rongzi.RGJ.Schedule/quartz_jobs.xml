@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+    <processing-directives>
+        <overwrite-existing-data>true</overwrite-existing-data>
+    </processing-directives>
+
+    <schedule>
+
+        <!--定义任务 RequeirmentPriceJob-->
+        <job>
+            <name>RequirementPriceJob</name>
+            <group>RequirementPriceJobGroup</group>
+            <description>融资需求书加个计算全量JOB</description>
+            <job-type>Rongzi.RGJ.Schedule.RequirementPriceJob,Rongzi.RGJ.Schedule</job-type>
+            <durable>true</durable>
+            <recover>false</recover>
+        </job>
+
+        <!--定义任务  触发器 每天凌晨01:00执行一次RequeirmentPriceJob任务-->
+        <trigger>
+            <cron>
+                <name>RequirementPriceJobTrigger</name>
+                <group>RequirementPriceJobTriggerGroup</group>
+                <job-name>RequirementPriceJob</job-name>
+                <job-group>RequirementPriceJobGroup</job-group>
+                <cron-expression>0 0 1 * * ?</cron-expression>
+            </cron>
+        </trigger>
+
+        <!--定义任务  触发器 每天30s执行一次RequeirmentPriceJob任务-->
+        <trigger>
+            <cron>
+                <name>RequirementPriceJobTrigger2</name>
+                <group>RequirementPriceJobTriggerGroup</group>
+                <job-name>RequirementPriceJob</job-name>
+                <job-group>RequirementPriceJobGroup</job-group>
+                <cron-expression>0/30 * * * * ?</cron-expression>
+            </cron>
+        </trigger>
+    </schedule>
+</job-scheduling-data>
